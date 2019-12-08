@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1387318-3e3c-40e9-a93f-237dcf697ad5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueueMessagingReceiver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-java-link-wrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aws-java-link-wrapper/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UfIe3W5pwHso5adTiCSREkgOkt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1387318-3e3c-40e9-a93f-237dcf697ad5" name="Default Changelist" comment="" />
+      <created>1575741314393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575741314393</updated>
+      <workItem from="1575741318493" duration="2599000" />
+      <workItem from="1575815460824" duration="1622000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1575742545581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575742545581" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1575816875644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575816875644" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575815473744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575815473744" />
+    <state x="342" y="221" key="new project wizard" timestamp="1575743385596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1575743385596" />
+  </component>
+</project>
