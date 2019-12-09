@@ -11,7 +11,6 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
 
 public class Handler implements RequestHandler<Map<String, Object>, ApiGatewayResponse> {
 	private final static String BODY_KEY = "body";
-	private final static String LINK_REGEX = "(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)";
 
 	private static final Logger LOG = LogManager.getLogger(Handler.class);
 
@@ -28,6 +27,6 @@ public class Handler implements RequestHandler<Map<String, Object>, ApiGatewayRe
 	}
 
 	private String filter(String content) {
-		return content.replaceAll(LINK_REGEX, "<a href=\"$0\">$0</a>");
+		return "<b>" + content + "</b>";
 	}
 }

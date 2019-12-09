@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d84459d8-e4d5-482b-9fff-52a876dc1667" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/QueueMessagingReceiver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/resources/log4j2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/package-lock.json" afterDir="false" />
@@ -24,34 +16,23 @@
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/components/MessageForm.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/index.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/logo.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/serviceWorker.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/WrapLinksLambda.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/src/main/java/by/deniskruglik/lambda/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/target/WrapLinksLambda-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/target/WrapLinksLambda-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WrapLinksLambda/target/original-WrapLinksLambda-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serverless.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/serverless/ApiGatewayResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/serverless/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/serverless/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/controllers/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/services/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/serverless/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/serverless/Handler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,11 +119,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575808568254</updated>
-      <workItem from="1575808577066" duration="4558000" />
+      <workItem from="1575808577066" duration="4856000" />
+      <workItem from="1575921626888" duration="1178000" />
     </task>
+    <task id="LOCAL-00001" summary="Added lambda">
+      <created>1575814983597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575814983597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Added lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lambda" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="114" key="CommitChangelistDialog2" timestamp="1575814977563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575814977563" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575814986961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575814986961" />
   </component>
 </project>
