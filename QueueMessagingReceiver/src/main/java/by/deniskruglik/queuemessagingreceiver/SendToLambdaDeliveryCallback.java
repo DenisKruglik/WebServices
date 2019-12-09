@@ -9,39 +9,40 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.simplejavamail.email.Email;
+import org.simplejavamail.email.EmailBuilder;
+import org.simplejavamail.mailer.Mailer;
+import org.simplejavamail.mailer.MailerBuilder;
+import org.simplejavamail.mailer.config.TransportStrategy;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.*;
-import javax.mail.*;
-import javax.mail.internet.*;
 
 public class SendToLambdaDeliveryCallback implements DeliverCallback {
     private final static String LAMBDA_URL = "https://xceergiax4.execute-api.us-east-1.amazonaws.com/dev/wrap-links";
     private final static String FROM = "den4ik6113@gmail.com";
     private final static String TO = "d.kruglik11011@gmail.com";
-    private final static String HOST = "localhost";
     private final static String SUBJECT = "Message from RabbitMQ";
+    private final static String SMTP_HOST = "email-smtp.eu-central-1.amazonaws.com";
+    private final static String SMTP_USERNAME = "AKIAXZXK4ZULA2NBRVG3";
+    private final static String SMTP_PASSWORD = "BD98bFj/GtmQzqwKtn/SghlOxUGoOnDTctkPMwn6qAbl";
 
-    private Logger logger = LoggerFactory.getLogger(SendToLambdaDeliveryCallback.class);
+    private Logger logger = LogManager.getLogger(SendToLambdaDeliveryCallback.class);
 
     @Override
     public void handle(String s, Delivery delivery) {
         String message = new String(delivery.getBody(), StandardCharsets.UTF_8);
+        logger.info("Received message: " + message);
         String processedMessage;
         try {
-            processedMessage = requestProcessedMessage(message);
+            processedMessage = requestProcessedMessage(message).replaceAll("^\"(.*)\"$", "$1");
         } catch (IOException e) {
             logger.error("Failed to get processed message from lambda", e);
             return;
         }
-        try {
-            sendEmail(processedMessage);
-        } catch (MessagingException e) {
-            logger.error("Failed to send email", e);
-        }
+        sendEmail(processedMessage);
     }
 
     private String requestProcessedMessage(String message) throws IOException {
@@ -57,16 +58,24 @@ public class SendToLambdaDeliveryCallback implements DeliverCallback {
         return result;
     }
 
-    private void sendEmail(String text) throws MessagingException {
-        Properties properties = System.getProperties();
-        properties.setProperty("mail.smtp.host", HOST);
-        Session session = Session.getDefaultInstance(properties);
-        MimeMessage message = new MimeMessage(session);
-        message.setFrom(new InternetAddress(FROM));
-        message.addRecipient(Message.RecipientType.TO, new InternetAddress(TO));
-        message.setSubject(SUBJECT);
-        message.setText(text);
-        Transport.send(message);
+    private void sendEmail(String text) {
+        logger.info("Sending email");
+        Email email = EmailBuilder.startingBlank()
+                .from(FROM)
+                .to(TO)
+                .withSubject(SUBJECT)
+                .withHTMLText(text)
+                .buildEmail();
+
+        Mailer mailer = MailerBuilder
+                .withSMTPServer(SMTP_HOST, 587, SMTP_USERNAME, SMTP_PASSWORD)
+                .withTransportStrategy(TransportStrategy.SMTP_TLS)
+                .withSessionTimeout(10 * 1000)
+                .clearEmailAddressCriteria() // turns off email validation
+                .withDebugLogging(true)
+                .buildMailer();
+
+        mailer.sendMail(email);
         logger.info("Message sent successfully");
     }
 }

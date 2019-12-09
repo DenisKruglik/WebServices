@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1387318-3e3c-40e9-a93f-237dcf697ad5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QueueMessagingReceiver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/package-lock.json" afterDir="false" />
@@ -24,12 +16,23 @@
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/components/MessageForm.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/index.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/logo.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/serviceWorker.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/controllers/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/services/MessageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aws-java-link-wrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aws-java-link-wrapper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-java-link-wrapper/src/main/java/com/serverless/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aws-java-link-wrapper/src/main/java/com/serverless/Handler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +67,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\For_studies\WebServices\WebServices\QueueMessagingReceiver\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -78,6 +87,20 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
       <method />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.deniskruglik.queuemessagingreceiver.Main" />
+      <module name="QueueMessagingReceiver" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.deniskruglik.queuemessagingreceiver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -110,6 +133,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -134,26 +162,81 @@
       <option name="presentableId" value="Default" />
       <updated>1575741314393</updated>
       <workItem from="1575741318493" duration="2599000" />
-      <workItem from="1575815460824" duration="1622000" />
+      <workItem from="1575815460824" duration="2890000" />
+      <workItem from="1575911598341" duration="7632000" />
     </task>
+    <task id="LOCAL-00001" summary="Added receiver">
+      <created>1575817268456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575817268456</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Added receiver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added receiver" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1575742545581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575742545581" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1575816875644">
+    <state x="489" y="114" key="CommitChangelistDialog2" timestamp="1575817265262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575816875644" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575815473744">
+    <state x="489" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575817265262" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1575920594221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575815473744" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575920594221" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1575920594221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575920594221" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1575920594220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575920594220" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1575920594221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575920594221" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1575920532502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575920532502" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1575920532501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575920532501" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1575920532501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575920532501" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1575920532502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575920532502" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1575918207438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575918207438" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575817273677">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575817273677" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575911587463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575911587463" />
     <state x="342" y="221" key="new project wizard" timestamp="1575743385596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
