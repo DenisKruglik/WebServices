@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d84459d8-e4d5-482b-9fff-52a876dc1667" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/jobs/MessageSendJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/resources/quartz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/WebServices.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/serverless/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serverless.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +97,8 @@
       <workItem from="1575996988564" duration="77000" />
       <workItem from="1575998365774" duration="1311000" />
       <workItem from="1576430935718" duration="26000" />
-      <workItem from="1576431137658" duration="1085000" />
+      <workItem from="1576431137658" duration="1204000" />
+      <workItem from="1576436843422" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="Added lambda">
       <created>1575814983597</created>
@@ -113,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575814983597</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed unused code">
+      <created>1576432318538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576432318538</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,21 +124,22 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Added lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added lambda" />
+    <MESSAGE value="Removed unused code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="114" key="CommitChangelistDialog2" timestamp="1575814977563">
+    <state x="550" y="114" key="CommitChangelistDialog2" timestamp="1576432297716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575814977563" />
+    <state x="550" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576432297716" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1576430960234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576430960234" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575814986961">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576432330483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575814986961" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576432330483" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575997020836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
