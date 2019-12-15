@@ -19,17 +19,24 @@ import org.simplejavamail.mailer.config.TransportStrategy;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class SendToLambdaDeliveryCallback implements DeliverCallback {
-    private final static String LAMBDA_URL = "https://xceergiax4.execute-api.us-east-1.amazonaws.com/dev/wrap-links";
+    private final static String LAMBDA_URL = "https://k6tr0s1oa6.execute-api.us-east-1.amazonaws.com/dev/wrap-links";
     private final static String FROM = "den4ik6113@gmail.com";
     private final static String TO = "d.kruglik11011@gmail.com";
     private final static String SUBJECT = "Message from RabbitMQ";
     private final static String SMTP_HOST = "email-smtp.eu-central-1.amazonaws.com";
-    private final static String SMTP_USERNAME = "AKIAXZXK4ZULA2NBRVG3";
-    private final static String SMTP_PASSWORD = "BD98bFj/GtmQzqwKtn/SghlOxUGoOnDTctkPMwn6qAbl";
+    private final static String SMTP_USERNAME = "AKIAW2CC2ZAEGI2FYBOF";
+    private final static String SMTP_PASSWORD = "BAndXe2jzt02Lw73ORFlHvkywlqEIc7m0jyVZIRUL7h3";
+    private final static String INSERT_SQL = "INSERT INTO messages (content) VALUES (?);";
 
     private Logger logger = LogManager.getLogger(SendToLambdaDeliveryCallback.class);
+
+    private Connection connection = Connector.getConnection();
 
     @Override
     public void handle(String s, Delivery delivery) {
@@ -41,6 +48,11 @@ public class SendToLambdaDeliveryCallback implements DeliverCallback {
         } catch (IOException e) {
             logger.error("Failed to get processed message from lambda", e);
             return;
+        }
+        try {
+            pushToDatabase(processedMessage);
+        } catch (SQLException e) {
+            logger.error("Failed to push to database", e);
         }
         sendEmail(processedMessage);
     }
@@ -77,5 +89,17 @@ public class SendToLambdaDeliveryCallback implements DeliverCallback {
 
         mailer.sendMail(email);
         logger.info("Message sent successfully");
+    }
+
+    private boolean pushToDatabase(String message) throws SQLException {
+        PreparedStatement statement = connection.prepareStatement(INSERT_SQL);
+        statement.setString(1, message);
+        return statement.execute();
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+        connection.close();
     }
 }

@@ -23,9 +23,8 @@ public class Receiver {
             Channel channel = connection.createChannel()) {
             logger.info("Waiting for messages.");
             DeliverCallback deliverCallback = new SendToLambdaDeliveryCallback();
-            while (true) {
-                channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> { });
-            }
+            channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> { });
+            while (true) { }
         } catch (TimeoutException | IOException e) {
             logger.error("Failed to establish connection to RabbitMQ", e);
             throw new IllegalStateException("Failed to establish connection to RabbitMQ", e);
