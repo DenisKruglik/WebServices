@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f1387318-3e3c-40e9-a93f-237dcf697ad5" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/WebServices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/jobs/MessageSendJob.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/resources/quartz.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aws-java-link-wrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aws-java-link-wrapper/.idea/workspace.xml" afterDir="false" />
@@ -166,7 +159,8 @@
       <workItem from="1575999857567" duration="216000" />
       <workItem from="1576406584185" duration="614000" />
       <workItem from="1576408446273" duration="6513000" />
-      <workItem from="1576432406546" duration="2454000" />
+      <workItem from="1576432406546" duration="2508000" />
+      <workItem from="1576436763263" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Added receiver">
       <created>1575817268456</created>
@@ -182,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575923266504</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added database integration">
+      <created>1576434964775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576434964775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +194,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Added receiver" />
     <MESSAGE value="Completed receiver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed receiver" />
+    <MESSAGE value="Added database integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added database integration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#SQL_Dialects" timestamp="1576433451313">
@@ -208,26 +210,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575742545581" />
-    <state x="489" y="114" key="CommitChangelistDialog2" timestamp="1575923261453">
+    <state x="489" y="114" key="CommitChangelistDialog2" timestamp="1576434963345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="489" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575923261453" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1576434755795">
+    <state x="489" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576434963345" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1576434975971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576434755795" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1576434755795">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576434975971" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1576434975971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576434755795" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1576434755795">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576434975971" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1576434975971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576434755795" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1576434755795">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576434975971" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1576434975971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576434755795" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576434975971" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1575923293229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -252,14 +254,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576415832696" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575923271517">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576434966632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575923271517" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576406853253">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576434966632" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576436798432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576406853253" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576436798432" />
     <state x="342" y="221" key="new project wizard" timestamp="1575743385596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

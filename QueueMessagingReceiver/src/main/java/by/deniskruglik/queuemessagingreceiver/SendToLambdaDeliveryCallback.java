@@ -25,7 +25,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class SendToLambdaDeliveryCallback implements DeliverCallback {
-    private final static String LAMBDA_URL = "https://k6tr0s1oa6.execute-api.us-east-1.amazonaws.com/dev/wrap-links";
+    private final static String LAMBDA_URL = "https://uqrrxk46ak.execute-api.us-east-1.amazonaws.com/dev/process";
     private final static String FROM = "den4ik6113@gmail.com";
     private final static String TO = "d.kruglik11011@gmail.com";
     private final static String SUBJECT = "Message from RabbitMQ";
