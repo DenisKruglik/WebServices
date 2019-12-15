@@ -2,37 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d84459d8-e4d5-482b-9fff-52a876dc1667" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/components/MessageForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/frontend/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/jobs/MessageSendJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/resources/quartz.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/Receiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingReceiver/src/main/java/by/deniskruglik/queuemessagingreceiver/SendToLambdaDeliveryCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/controllers/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/services/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueMessagingSender/src/main/java/by/deniskruglik/queuemessagingsender/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/serverless/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/serverless/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/serverless/Response.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -120,7 +100,11 @@
       <option name="presentableId" value="Default" />
       <updated>1575808568254</updated>
       <workItem from="1575808577066" duration="4856000" />
-      <workItem from="1575921626888" duration="1178000" />
+      <workItem from="1575921626888" duration="1443000" />
+      <workItem from="1575996988564" duration="77000" />
+      <workItem from="1575998365774" duration="1311000" />
+      <workItem from="1576430935718" duration="26000" />
+      <workItem from="1576431137658" duration="1085000" />
     </task>
     <task id="LOCAL-00001" summary="Added lambda">
       <created>1575814983597</created>
@@ -146,9 +130,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="550" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575814977563" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1576430960234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576430960234" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575814986961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575814986961" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575997020836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575997020836" />
   </component>
 </project>
